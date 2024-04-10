@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    background-color: #FFFBFE;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family:'Playfair Display';
+}
+
+/* NAVIGATION BAR */
+/* NAVIGATION BAR */
+/* NAVIGATION BAR */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #FFFBFE;
+    height: 5em;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+}
+
+#navoverlay {
+    background-color: rgb(45, 159, 39);
+    height: 0;
+    position: relative;
+    bottom: -7em;
+    text-align: center;
+}
+
+.navbar ul {
+    margin-right: 2em;
+    
+}
+
+.navbar img {
+    height: 80%;
+    margin-left: 2em;
+}
+
+.navbar ul li {
+    
+    background-color: #FFFBFE;
+    list-style-type: none;
+    display: inline-block;
+    width: 15vw;
+    text-align: center;
+    
+}
+
+.navbar ul li a{
+    
+    color: #1A1A1A;
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.navbar ul li a:hover {
+    background-color:#918a82;
+}
+
+/* COVER --------------------------------------- */
+
+#space {
+    background-color: rgb(187, 92, 92);
+    height: 5em;
+}
+
+#cover {
+    background-color: rgba(128, 0, 128, 0.5);
+    background: linear-gradient(rgba(82, 43, 71, 0.5),rgba(82, 43, 71, 0.5)), url("images/kyler-nixon-_ZBekGTBh-c-unsplash.jpg");
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box;
+    color: white;
+
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08415C;
+    padding: 0.1em;
+    width: 15em;
+    height: 2.5em;
+    border-radius: 15px;
+    color: white;
+    outline: none;
+    font-size: 1em;
+}
+#cover img {
+    
+    height: auto;
+    width: 50%;
+}
+
+/* SEGMENT 1 --------------------------------------- */
+
+#segment1 {
+    background-color: rgba(128, 0, 128, 0.5);
+    background: url("images/man-sitting.svg");
+    background-size: contain;
+    background-size: cover;
+    height: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    box-sizing: content-box;
+    color: black;
+    padding: 3em;
+}
+
+#s1par {
+    width: 50%;
+}
+
+#s1par p {
+    width: 75%;
+}
+
+/* SEGMENT 2 --------------------------------------- */
+#segment2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E3D5E1;
+    align-items: center;
+}
+
+#segment2 h1 {
+    color: #FFFBFE;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50em;
+}
+
+.testimonials img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 10em;
+    width: auto;
+    margin: 0.5em;
+}
+
+.reverset {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50em;
+}
+
+.reverset img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 10em;
+    width: auto;
+    margin: 0.5em;
+}
+
+#textimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 0.5em;
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    width: 5em;
+}
+
+/* SEGMENT 3 --------------------------------------- */
+
+#segment3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#segment3 h1 {
+    color: #000000;
+}
+.properties {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-column-gap: 2em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 35em;
+}
+
+.properties img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 20em;
+    width: auto;
+    margin: 0.5em;
+}
+
+.reversep {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-column-gap: 2em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 35em;
+}
+
+.reversep img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 20em;
+    width: auto;
+    margin: 0.5em;
+}
+
+#propertext {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 0.9em;
+    margin: 0.5em;
+    width: auto;
+}
+
+#propertext h1 {
+    color: black;
+}
+
+#properbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 2.5em;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 0.1em solid #08415C;
+}
