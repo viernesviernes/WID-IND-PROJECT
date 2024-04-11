@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    
+</head>
+<body>
+    <div id="container">
+
+        <img src="cclogo.png" width="100%" height="auto">
+        <h1>Centennial College</h1>
+        <h2>Continuing Education Course/Instructor Evaluation</h2>
+
+        <form method="post">
+            <p>Please read each statement carefully and consider each one individually.</p>
+            <label for="coursename">Course Name: </label>
+            <input type="text" name="coursename">
+            <br>
+
+            <label for="semester">Semester: </label>
+            <select name="semester">
+                <option>
+                    Winter
+                </option>
+                <option>
+                    Summer
+                </option>
+                <option>
+                    Fall
+                </option>
+            </select>
+
+            <label for="year">Year: </label>
+            <select id="year" name="year">
+                <!-- python is the best -->
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024" selected>2024</option>
+            </select>
+
+            <br> 
+            <hr>
+
+
+            <h3><b>Instructor</b></h3>
+            <p>How would you rate your instructor's:</p>
+
+                <div class="mc">
+                    <label for="ins1">1. Knowledge of the subject?</label>
+
+                    <span>
+                        <label for="excellent1"> Excellent </label>
+                        <input type="radio" id="excellent1" name="ins1">
+
+                        <label for="good1"> Good </label>
+                        <input type="radio" id="good1" name="ins1">
+
+                        <label for="fair1"> Fair </label>
+                        <input type="radio" id="fair1" name="ins1">
+
+                        <label for="ns1"> Not Satisfactory </label>
+                        <input type="radio" id="ns1" name="ins1">
+                    </span>
+
+                    <br>
+
+                    <label for="ins2">2. Helpfulness?</label>
+
+                    <span>
+                        <label for="excellent2"> Excellent </label>
+                        <input type="radio" id="excellent2" name="ins2">
+
+                        <label for="good2"> Good </label>
+                        <input type="radio" id="good2" name="ins2">
+
+                        <label for="fair2"> Fair </label>
+                        <input type="radio" id="fair2" name="ins2">
+
+                        <label for="ns2"> Not Satisfactory </label>
+                        <input type="radio" id="ns2" name="ins2">
+                    </span>
+
+                    <br>
+
+                    <label for="ins3">3. Courtesy and respect for all students?</label>
+
+                    <span>
+                        <label for="excellent3"> Excellent </label>
+                        <input type="radio" id="excellent3" name="ins3">
+
+                        <label for="good3"> Good </label>
+                        <input type="radio" id="good3" name="ins3">
+
+                        <label for="fair3"> Fair </label>
+                        <input type="radio" id="fair3" name="ins3">
+
+                        <label for="ns3"> Not Satisfactory </label>
+                        <input type="radio" id="ns3" name="ins3">
+                    </span>
+
+                    <br>
+
+                    <label for="ins4">4. Communication skills?</label>
+
+                    <span>
+                        <label for="excellent4"> Excellent </label>
+                        <input type="radio" id="excellent4" name="ins4">
+
+                        <label for="good4"> Good </label>
+                        <input type="radio" id="good4" name="ins4">
+
+                        <label for="fair4"> Fair </label>
+                        <input type="radio" id="fair4" name="ins4">
+
+                        <label for="ns4"> Not Satisfactory </label>
+                        <input type="radio" id="ns4" name="ins4">
+                    </span>
+
+                    <br>
+
+                    <label for="ins5">5. Overall performance?</label>
+
+                    <span>
+                        <label for="excellent5"> Excellent </label>
+                        <input type="radio" id="excellent5" name="ins5">
+
+                        <label for="good5"> Good </label>
+                        <input type="radio" id="good5" name="ins5">
+
+                        <label for="fair5"> Fair </label>
+                        <input type="radio" id="fair5" name="ins5">
+
+                        <label for="ns5"> Not Satisfactory </label>
+                        <input type="radio" id="ns5" name="ins5">
+                    </span>
+                </div>
+            <br>
+
+            <hr>
+
+            <h3><b>Course</b></h3>
+            
+                <div class="mc">
+                    <label for="ins6">6. How would you rate the course materials?</label>
+
+                    <span>
+                        <label for="excellent6"> Excellent </label>
+                        <input type="radio" id="excellent6" name="ins6">
+
+                        <label for="good6"> Good </label>
+                        <input type="radio" id="good6" name="ins6">
+
+                        <label for="fair6"> Fair </label>
+                        <input type="radio" id="fair6" name="ins6">
+
+                        <label for="ns6"> Not Satisfactory </label>
+                        <input type="radio" id="ns6" name="ins6">
+                    </span>
+
+                    <br>
+
+                    <label for="ins7">7. How much did the course meet your expectations?</label>
+
+                    <span>
+                        <label for="excellent7"> Excellent </label>
+                        <input type="radio" id="excellent7" name="ins7">
+
+                        <label for="good7"> Good </label>
+                        <input type="radio" id="good7" name="ins7">
+
+                        <label for="fair7"> Fair </label>
+                        <input type="radio" id="fair7" name="ins7">
+
+                        <label for="ns7"> Not Satisfactory </label>
+                        <input type="radio" id="ns7" name="ins7">
+                    </span>
+
+                    <br>
+
+                    <label for="ins8">8. How would you rate this course (overall)?</label>
+
+                    <span>
+                        <label for="excellent8"> Excellent </label>
+                        <input type="radio" id="excellent8" name="ins8">
+
+                        <label for="good8"> Good </label>
+                        <input type="radio" id="good8" name="ins8">
+
+                        <label for="fair8"> Fair </label>
+                        <input type="radio" id="fair8" name="ins8">
+
+                        <label for="ns8"> Not Satisfactory </label>
+                        <input type="radio" id="ns8" name="ins8">
+                    </span>
+                </div>
+            <br>
+
+            <hr>
+
+            <h3><b>General Information</b></h3>
+
+                <div class="mc">
+                    <label for="ins9">9. Was the course outline reviewed/explained at the beginning of your course?</label>
+
+                <span>
+                    <label for="y9"> Yes </label>
+                    <input type="radio" id="y9" name="ins9">
+
+                    <label for="n9"> No </label>
+                    <input type="radio" id="n9" name="ins9">
+
+                    <label for="u9"> Unsure </label>
+                    <input type="radio" id="u9" name="ins9">
+                </span>
+
+                <br>
+
+                <label for="ins10">10. Would you recommend this course to a friend with the same interests?</label>
+
+                <span>
+                    <label for="y10" name="ins10"> Yes </label>
+                    <input type="radio" id="y10" name="ins10">
+
+                    <label for="n10"> No </label>
+                    <input type="radio" id="n10" name="ins10">
+
+                    <label for="u10"> Unsure </label>
+                    <input type="radio" id="u10" name="ins10">
+                </span>
+
+                </div>
+            <br>
+
+            <hr>
+
+            <h3><b>Comments</b></h3>
+
+                <div class="comm">
+                    <label for="comm11">11. What is the best thing about this course?</label>
+                    <textarea rows="3" name="comm11"></textarea>
+                    
+                    <br>
+
+                    <label for="comm12">12. How can we improve this course?</label>
+                    <textarea rows="3" name="comm12"></textarea>
+
+                    <br>
+
+                    <label for="comm13">13.Other comments</label>
+                    <textarea rows="9" name="comm13"></textarea>
+                </div>
+
+            <button type="submit">Submit Form</button>
+        </form>
+
+    </div>
+</body>
+</html>

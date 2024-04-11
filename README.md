@@ -1,2 +1,3 @@
-# WID-IND-PROJECT
-Individual Project for Web Interface Design
+# Assignment-4
+
+index1.html is the index.html file from assignment 1
