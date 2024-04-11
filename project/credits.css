@@ -130,76 +130,14 @@ h1 {
 }
 
 .prop {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     max-height: 40em;
-    width: 120%;
+    width: 100%;
     margin: 1em;
     overflow:hidden;
     padding: 0;
     border-radius: 1em;
 }
-
-#prop1 {
-    background: linear-gradient(rgba(82, 43, 71, 0),rgba(82, 43, 71, 0.75)), url('images/p1.png');
-    background-size: contain;
-    background-size: cover;
-}
-
-#prop2 {
-    background: linear-gradient(rgba(82, 43, 71, 0),rgba(82, 43, 71, 0.75)), url('images/p2.png');
-    background-size: contain;
-    background-size: cover;
-}
-
-#prop3 {
-    background: linear-gradient(rgba(82, 43, 71, 0),rgba(82, 43, 71, 0.75)), url('images/p3.png');
-    background-size: contain;
-    background-size: cover;
-}
-
-#info1{
-    display: flex;
-    grid-column: 1 / -1;
-    justify-content: center;
-    position: relative;
-    align-items: flex-end;
-    height: 20em;
-    width: auto;
-    margin: 0.5em;
-}
-
-#info2{
-    text-align: left;
-    margin-left: 1em;
-}
-
-#info3{
-    text-align: right;
-    margin-right: 1em;
-}
-
-#info4{
-    display: flex;
-    grid-column: 1 / -1;
-    justify-content: center;
-    position: relative;
-    align-items: flex-end;
-    margin: 0.5em;
-}
-
-#properbutton {
-    grid-column: 1 / -1;
-    background-color: #08415C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10em;
-    height: 2.5em;
-    border-radius: 15px;
-    color: rgb(255, 255, 255);
-    outline: none;
-}
-
